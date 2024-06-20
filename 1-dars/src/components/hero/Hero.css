@@ -1,0 +1,66 @@
+@import url("../../style/container.css");
+@import url("../../style/fonts.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#hero{
+    margin-top: 90px;
+    background-image: url(../../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    min-height: 660px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-content{
+    background-color: #fff;
+    width: 100%;
+    max-width: 540px;
+    padding: 48px;
+    border-radius:12px ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 36px;
+    transition: .5s;
+}
+
+.hero-content:hover{
+    box-shadow: 0px 0px 10px #222;
+    transform: scale(1.05);
+}
+
+.hero-content-title{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #212121;
+}
+
+.content-user{
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}
+
+.content-user span{
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#52647C;
+}

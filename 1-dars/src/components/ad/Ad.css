@@ -1,0 +1,91 @@
+@import url("../../style/container.css");
+@import url("../../style/fonts.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#ad{
+    margin-block: 56px;
+}
+
+.ad-content{
+    background-image: url(../../images/advertising.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    min-height: 375px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ad-card{
+    width: 100%;
+    max-width: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 0 64px 64px;
+}
+
+.ad-card-link{
+    background-color:  #0D6EFD;
+    text-align: center;
+    padding: 4px 24px;
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 112px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.ad-card-link:hover{
+    background-color: #0d6dfdaa;
+}
+.ad-card-link:active{
+    transform: scale(0.9);
+}
+
+.ad-card-title{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.content-user{
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}
+
+.content-user span{
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#fff;
+}
+
